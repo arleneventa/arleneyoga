@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>ARLENE VENTANILLA TALACTAC | Yoga Coach</title>
+    <link rel="shortcut icon" type="image/png" href="images/yoga.png" />
+  </head>
+  <style>
+    .modal {
+      display: block;
+      position: fixed;
+      z-index: 1000;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .modal-content {
+      position: relative;
+      background-color: #fff;
+      margin: 15% auto;
+      padding: 20px;
+      width: 80%;
+      max-width: 500px;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .close {
+      position: absolute;
+      top: 10px;
+      right: 15px;
+      color: #aaa;
+      font-size: 28px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .close:hover,
+    .close:focus {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+    }
+  </style>
+  <body>
+    <div id="welcomeModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <img src="images/yoga.png" style="width: 100px; margin-bottom: 20px" />
+        <h1>ようこそ！</h1>
+        <p>
+          アーリーンのオンラインヨガクラスに登録して、初回限定の特別割引を受け取りましょう！
+        </p>
+      </div>
+    </div>
+    <!-- Header -->
+    <section id="header">
+      <div class="header container">
+        <div class="nav-bar">
+          <div class="brand">
+            <a href="#hero">
+              <h1>
+                <span>A</span>rlene <span>V</span>entanilla
+                <span>T</span>alactac
+              </h1></a
+            >
+          </div>
+          <div class="nav-list">
+            <div class="hamburger">
+              <div class="bar"></div>
+            </div>
+            <ul>
+              <li><a href="#hero" data-after="Home">ホーム</a></li>
+              <li><a href="#about" data-after="About">アバウト</a></li>
+              <li><a href="#skills" data-after="Skills">スキル</a></li>
+              <li><a href="#projects" data-after="Project">プロジェクト</a></li>
+              <li><a href="#contact" data-after="Contact">お問い合わせ</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Header -->
+
+    <section id="hero">
+      <div class="hero container">
+        <div>
+          <h1>こんにちは、<span></span></h1>
+          <h1>私の名前は<span></span></h1>
+          <h1>アーリーン・ベンタニラ・タラクタックです<span></span></h1>
+          <a href="./images/online_yoga.pdf" class="cta"
+            >オンラインヨガについて</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- End Hero Section -->
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="about container">
+        <div class="col-left">
+          <div class="about-img">
+            <img src="./images/pp.jpg" alt="profile photo" />
+          </div>
+        </div>
+        <div class="col-right">
+          <h1 class="section-title">アバウト<span>私について</span></h1>
+          <h2>こんにちは！私はアーリーン・ベンタニラ・タラクタックです</h2>
+          <p>
+            幼少期から母親に特別なヨガの技術を学び、それを基に専門的なキャリアを築いてきました。今では100人以上の生徒にヨガを教えており、心と体の健康をサポートしています。<br />
+            現在、オンラインでのヨガコーチングを開始し、国境を超えて多くの人々にヨガの恩恵を届けています。<br />
+            私は日本で生まれ育ち、日本語が堪能であるため、日本在住の方も気軽に参加いただけます。<br />
+            アメリカでの高等教育を経て、今はアメリカを拠点に活動していますが、日本とアメリカ、そして世界中の人々とのつながりを大切にしています。<br />
+            私の指導は、個々のレベルに合わせて丁寧に行われ、リラックスしながら本質的なヨガ体験ができるよう工夫されています。<br />
+            オンラインプラットフォームは初心者から上級者まで対応しており、誰でも安心して参加できます。
+          </p>
+          <a href="#contact" class="cta">お問い合わせ</a>
+        </div>
+      </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <div class="skills container">
+        <div class="skills-top">
+          <h1 class="section-title">ス<span>キ</span>ル</h1>
+          <p>
+            私のヨガスキルは何年にもわたって培われ、深められてきました。ここに、私が提供するヨガのスキルを紹介します。
+          </p>
+        </div>
+        <div class="skills-bottom">
+          <div class="skills-items">
+            <h1>アーサナ指導</h1>
+            <p>
+              初心者から上級者まで対応できる正確なアーサナ（ポーズ）の指導を行います。
+            </p>
+          </div>
+          <div class="skills-items">
+            <h1>呼吸法（プラーナーヤーマ）</h1>
+            <p>心を落ち着かせ、精神の安定を促す呼吸法を指導します。</p>
+          </div>
+          <div class="skills-items">
+            <h1>瞑想の指導</h1>
+            <p>
+              リラックスと内なる平穏を得るための瞑想テクニックを教えています。
+            </p>
+          </div>
+          <div class="skills-items">
+            <h1>柔軟性とストレッチ</h1>
+            <p>
+              体の柔軟性を向上させ、怪我を防ぐためのストレッチ技術を指導します。
+            </p>
+          </div>
+          <div class="skills-items">
+            <h1>オンラインコーチング</h1>
+            <p>
+              どこにいても参加できるように、オンラインでの個別およびグループレッスンを提供しています。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Skills Section -->
+
+    <!-- Project Section -->
+
+    <section id="projects">
+      <div class="projects container">
+        <div class="projects-header">
+          <h1 class="section-title">最近の<span>ワークショップ</span></h1>
+        </div>
+        <div class="all-projects">
+          <div class="project-item">
+            <div class="project-info">
+              <h1>日本でのヨガワークショップ</h1>
+              <p>
+                アーリーンは日本で特別なヨガワークショップを開催し、伝統的な日本文化に合わせたヨガセッションを提供しました。初心者から上級者まで参加しやすいプログラムを組み、個々のニーズに応じた呼吸法と柔軟性向上のテクニックを導入しました。
+              </p>
+            </div>
+            <div class="project-img">
+              <img src="./images/img-1.jpg" alt="" />
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1>アメリカでのヨガリトリート</h1>
+              <p>
+                アメリカでは、アーリーンは都市部の忙しいライフスタイルに合わせて、リラックスとストレス管理を重視したヨガリトリートを開催しました。特に瞑想セッションに重点を置き、心の平穏を得るためのテクニックを紹介しました。
+              </p>
+            </div>
+            <div class="project-img">
+              <img src="./images/img-1.jpg" alt="" />
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1>ヨーロッパでの国際ヨガワークショップ</h1>
+              <p>
+                ヨーロッパ各地で開催されたワークショップでは、多文化背景を持つ参加者に対応するために、各地域の伝統や慣習を尊重しつつ、ヨガの基本原則を広めました。参加者同士の交流を促し、グループ活動を通してヨガの楽しさを共有しました。
+              </p>
+            </div>
+            <div class="project-img">
+              <img src="./images/img-1.jpg" alt="" />
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1>アジアでの特別ヨガプログラム</h1>
+              <p>
+                アジア各国でのワークショップでは、アーリーンは伝統的なヨガに新しいアプローチを取り入れました。特に、体の調整と姿勢の重要性を強調し、参加者が日常生活に取り入れやすいエクササイズを紹介しました。
+              </p>
+            </div>
+            <div class="project-img">
+              <img src="./images/img-1.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Project Section -->
+
+    <section style="padding: 50px" id="ads">
+      <div class="all-ads">
+        <div class="ads-item">
+          <div class="ads-info">
+            <ul>
+              <li>自宅で始めるヨガクラス アーリーンと一緒に</li>
+              <li>初心者歓迎 オンラインヨガで健康をサポート</li>
+              <li>リラックスとフィットネス あなたに合ったヨガセッション</li>
+              <li>アーリーンのオンラインヨガで体と心の調和を</li>
+              <li>家にいながらヨガの効果を実感 今すぐ登録</li>
+            </ul>
+          </div>
+        </div>
+        <div class="ads-item">
+          <div class="ads-info">
+            <ul>
+              <li>
+                アーリーンのオンラインヨガクラスで体と心の健康を手に入れましょう
+                初心者から上級者まで対応しています
+              </li>
+              <li>
+                どこにいても参加できるオンラインヨガクラス
+                リラックスし柔軟性を高めるためのプログラムを提供します
+              </li>
+              <li>
+                プロフェッショナルな指導と温かいサポートであなたのヨガの旅を始めましょう
+                アーリーンのクラスに参加してみませんか
+              </li>
+              <li>
+                自宅でヨガを学び体と心のバランスを整えましょう
+                今すぐアーリーンのオンラインヨガに登録して健康的な生活を
+              </li>
+              <li>
+                リラックス ストレス解消 体力向上をオンラインで実現
+                アーリーンのオンラインヨガクラスで健康的なライフスタイルを
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="contact container">
+        <div>
+          <h1 class="section-title">お問い合わせ<span>情報</span></h1>
+        </div>
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="icon">
+              <img src="./images/phone.png" alt="" />
+            </div>
+            <div class="contact-info">
+              <h1>電話番号</h1>
+              <h2>+1 8179062993</h2>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon">
+              <img src="./images/new-post.png" alt="" />
+            </div>
+            <div class="contact-info">
+              <h1>メールアドレス</h1>
+              <h2>arleneventa1972@gmail.com</h2>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon">
+              <img src="./images/map-marker.png" alt="" />
+            </div>
+            <div class="contact-info">
+              <h1>住所</h1>
+              <h2>3233 LEMON AVE SIGNAL HILL, CA 90755</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Contact Section -->
+
+    <!-- Footer -->
+    <section id="footer">
+      <p>Copyright Ⓒ 2024 Arlene Yoga. All Rights Reserved.</p>
+    </section>
+    <!-- End Footer -->
+
+    <script src="./app.js"></script>
+    <script>
+      // Close the modal when user clicks on the close button
+      document.querySelector(".close").addEventListener("click", function () {
+        document.getElementById("welcomeModal").style.display = "none";
+      });
+
+      // Close the modal when user clicks anywhere outside the modal content
+      window.onclick = function (event) {
+        if (event.target == document.getElementById("welcomeModal")) {
+          document.getElementById("welcomeModal").style.display = "none";
+        }
+      };
+    </script>
+  </body>
+</html>
